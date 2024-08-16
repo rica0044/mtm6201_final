@@ -1,0 +1,397 @@
+/* body {
+    width: 0 auto;
+} */
+
+/* Skip links */
+.skip-links {
+    margin: 0;
+    padding: 0;
+}
+
+.skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: #60AE73;
+    color:white;
+    padding: .5em 1em;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+a:focus {
+    outline: 4px solid #FA5457;
+}
+
+.navbar:focus {
+    outline: 4px solid #FA5457;
+}
+
+/* Website appearance */
+h1 {
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, h3, h4, button, nav, .blogbtn, .mainmenu {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, p {
+    color: white;
+}
+.about, .blog, .contact {
+    color: #60AE73;
+}
+
+.about-txt {
+    color: black;
+}
+
+.card-title {
+    color: #60AE73;
+}
+
+.card-text {
+    color: black;
+}
+
+.form-tittle {
+    color: black;
+}
+
+.contactform {
+    background-color: #FA8925;
+}
+
+/* Header and banner section */
+    .mainmenu {
+        color: #FA5457;
+        z-index: 1000;
+        position: relative;
+    }
+
+    .mainmenu:hover {
+        color: #01B4BC;
+    }
+
+.btn {
+    background-color: #FA5457;
+    color: white;
+    border-radius: 25px;
+    padding: 0.3rem 1.5rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #FA5457;
+}
+
+.navbar-toggler-icon {
+    color: #FA5457;
+}
+
+.dropdown-menu {
+    color: #FA5457;
+}
+
+.dropdown-item {
+    color: #01B4BC;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: #FA5457;
+}
+
+.bannerbtn {
+    background-color: white;
+    color: #FA5457;
+    border: none;
+    border-radius: 25px;
+    padding: 0.3rem 1.5rem;
+}
+
+.bannerbtn:hover {
+    background-color: #FA5457;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.servtittle {
+    color: #60AE73;
+    padding-top: 50px;
+}
+
+/* Services section (carousel) */
+.carousel-control-prev-icon {
+    background-image: url(images/Prev.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(images/Next.svg);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    /* color: #b74242;
+    background-color: #b74242; */
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1;
+    /* transition: opacity .15s ease; */
+}
+
+.carousel-control-prev-icon:hover {
+    color: #01B4BC;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-next-icon:hover {
+    color: #01B4BC;
+    transition: opacity .15s ease;
+}
+
+.carousel-item {
+    max-width: 70%;
+    margin: 15%;
+}
+
+.d-block {
+    border-radius: 30px;
+    /* background-color: rgba(0, 0, 0, 0.147);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.btnservices {
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #FA5457;
+    padding: 0.3rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.085);
+    font-size: 11px;
+}
+
+.btnservices:hover {
+    background-color: #FA5457;
+    color: white;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 80%;
+    background-color: rgb(151, 150, 150);
+}
+
+.carousel-indicators .active {
+    background-color: #60AE73;
+}
+
+/* Portfolio section */
+.imgport {
+    border-radius: 20px;
+}
+
+.port {
+    color: #60AE73;
+}
+
+.btnport {
+    background-color: #FA5457;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.3rem 1.5rem;
+}
+
+.btnport:hover {
+    background-color: #01B4BC;
+    transition: 0.3s ease-in-out;
+}
+
+/* About page */
+.aboutbtn {
+    background-color: #FA5457;
+    color: white;
+    border-radius: 20px;
+    padding: 0.3rem 1.5rem;
+}
+
+.aboutbtn:hover {
+    background-color: #01B4BC;
+    transition: 0.3s ease-in-out;
+}
+
+/* Blog page */
+.blogbtn {
+    background-color: #FA5457;
+    color: white;
+    border-radius: 20px;
+    padding: 0.3rem 1.5rem;
+    
+}
+
+.blogbtn:hover {
+    background-color: #01B4BC;
+    transition: 0.3s ease-in-out;
+}
+
+/* Contact section */
+.form-control {
+    border: none;
+}
+
+.form-control:active {
+    border: 2px solid #01B4BC;
+}
+
+
+/* Footer section */
+footer {
+    background-color: #965A04;
+}
+
+.menufoo {
+    color: white;
+}
+
+.menufoo:hover {
+    color: #01B4BC;
+}
+
+.fab:hover {
+    color:#01B4BC
+}
+
+.logofoo {
+    margin-top: 50px;
+}
+
+.smfooter {
+    margin-top: 70px;
+}
+
+.lfooter {
+    display: flex;
+}
+
+@media screen and (max-width: 400px) {
+
+    /* .navbar {
+        display: none;
+    } */
+
+    .mainmenu {
+        /* margin-top: -60px; */
+        display: none;
+      }
+
+}
+
+@media screen and (min-width: 401px) {
+
+    .navbar-brand {
+       height: 75px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .menuflex {
+      margin-top: -60px;
+    }
+
+    .text-banner {
+        font-size: 1.5rem;
+    }
+
+    .servtittle {
+        font-size: 2.5rem;
+    }
+
+    .btnservices {
+        font-size: 1.5rem;
+    }
+
+    .photo-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .aboutbtn {
+        float: right;
+        margin-right: 200px;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    .menuflex {
+        font-size: 2rem;
+    }
+
+    .text-banner {
+        font-size: 2rem;
+    }
+
+    .servtittle {
+        font-size: 3rem;
+    }
+
+    .btnservices {
+        font-size: 2rem;
+    }
+
+    .port, .btnport {
+        font-size: 1.5rem;
+        border-radius: 25px;
+        margin-left: 1rem;
+    }
+
+    .menufoo {
+        font-size: 1.2rem;
+    }
+    
+    .smfooter, i {
+        font-size: 1.8rem;
+    }
+
+    .about {
+        display: flex;
+        margin-left: 400px;
+    }
+
+    .aboutbtn {
+        float: right;
+        margin-right: 415px;
+    }
+
+}
